@@ -25,7 +25,7 @@ References
 from abc import ABCMeta, abstractmethod
 
 import numpy as np
-from scipy.linalg import pinv2
+from scipy.linalg import pinv
 
 from sklearn.utils import as_float_array
 from sklearn.utils.extmath import safe_sparse_dot
